@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+}
+
+div {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.contact_form {
+  border: 1px solid #ddd;
+  width: 80%;
+  margin: 20px auto;
+  padding: 5%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.contact_form h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.contact_form p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: orangered;
+}
+
+.contact_form h5 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.contact_form hr {
+  margin-bottom: 0;
+}
+
+.contact_form a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.child_form label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.child_form {
+  text-align: left;
+  width: 94%;
+  padding: 3%;
+}
+
+.child_form input,
+.child_form select {
+  width: 94%;
+  padding: 3%;
+  border-radius: 5px;
+  border: 1px solid #dddd;
+  box-shadow: 0px 0px 02px 0px;
+
+}
+
+.child_form select {
+  width: 100%;
+}
+
+.child_form input[type='button'] {
+  background-color: orangered;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  color: white;
+  width: 100%;
+  transition: 1.8s;
+}
+
+.child_form input[type='button']:hover {
+  background-color: black;
+}
